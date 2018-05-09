@@ -1,18 +1,13 @@
-/* adapted code from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_full_page */
+/*adapted code from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_full_page*/
 body, html {
     height: 100%;
     margin: 0;
-
 }
 
 .bg {
-    /* (c) Diliff on Wikimedia Commons: https://commons.wikimedia.org/wiki/File:London_Waterloo_Interior_Rush_Hour_2,_London,_UK_-_Diliff.jpg */
+    /*(c) Diliff on Wikimedia Commons: https://commons.wikimedia.org/wiki/File:London_Waterloo_Interior_Rush_Hour_2,_London,_UK_-_Diliff.jpg*/
     background-image: url("rush_hour.jpg");
-
-    /* Full height */
     height: 100%;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,6 +15,40 @@ body, html {
     text-align: center;
 }
 
+#button {
+    font-size: 70px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+/*
+#button {
+    border-radius: 10px;
+    width: 5%;
+    background-color: white;
+    box-shadow: 5px 5px grey;
+    padding: 1.5em;
+    font-style: normal;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 3em;
+    bottom: 3em;
+}
+
+#button:hover {
+    background-color: red;
+    box-shadow: 5px 5px pink;
+}
+
+/*
 #opening {
     font-size: 60px;
     color: black;
@@ -30,6 +59,7 @@ body, html {
     position: absolute;
     transform: translate(-50%, -50%);
     background: #6495ED;
-    /*background: rgba(223,231,233,0.8);*/
+    background: rgba(223,231,233,0.8);
     TRY THIS ANA: https://stackoverflow.com/questions/13932946/transparent-text-cut-out-of-background
 }
+*/
