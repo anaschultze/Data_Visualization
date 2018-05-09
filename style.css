@@ -16,13 +16,13 @@ body, html {
 }
 
 #button {
-    font-size: 70px;
+    font-size: 80px;
     text-decoration: none;
     justify-content: center;
     display: flex;
     position: absolute;
-    right: 1em;
-    bottom: 1em;
+    right: 1.25em;
+    bottom: 0.75em;
 }
 
 /*
