@@ -27,10 +27,35 @@ body, html {
     bottom: 0.75em;
 }
 
+#button2 {
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 1.25em;
+    bottom: 5em;
+}
+
 .box {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+#lastscreen img {
+    width: 42.55%;
+    position: absolute;
+    left: 0em;
+}
+
+#lastscreen_t {
+    width: 42.55%;
+    position: absolute;
+    left: 20em;
+    top: 8em;
+    font-style: italic;
+    font-size: 40px;
 }
 
 #middle img, #right img {
@@ -40,6 +65,31 @@ body, html {
 #middle, #right {
     width: 49%;
 }
+
+#middle2 img, #right2 img {
+    width: 100%;
+}
+
+#middle2 {
+    width: 30%;
+}
+
+#right2 {
+    width: 60%;
+}
+
+#middle3 img, #right3 img {
+    width: 100%;
+}
+
+#middle3 {
+    width: 45%;
+}
+
+#right3 {
+    width: 30%;
+}
+
 
 #theme {
     margin-top: 100px;
