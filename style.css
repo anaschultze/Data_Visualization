@@ -1,6 +1,3 @@
-/*adapted code from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_full_page*/
-
-
 body, html {
     height: 100%;
     margin: 0;
@@ -102,64 +99,3 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-/*
-.box {
-    margin-top: 120px;
-    margin-bottom: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    text-align: justify;
-}
-
-#selectmenu {
-    width: 40%;
-    background: #f2f2f2;
-    padding: 0.75em;
-}
-
-#overview {
-    width: 40%;
-    background: #f2f2f2;
-    padding: 0.75em;
-}
-*/
-
-/*
-#button {
-    border-radius: 10px;
-    width: 5%;
-    background-color: white;
-    box-shadow: 5px 5px grey;
-    padding: 1.5em;
-    font-style: normal;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    right: 3em;
-    bottom: 3em;
-}
-
-#button:hover {
-    background-color: red;
-    box-shadow: 5px 5px pink;
-}
-
-/*
-#opening {
-    font-size: 60px;
-    color: black;
-    font-family: sans-serif;
-    font: helvetica;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    background: #6495ED;
-    background: rgba(223,231,233,0.8);
-    TRY THIS ANA: https://stackoverflow.com/questions/13932946/transparent-text-cut-out-of-background
-}
-*/
